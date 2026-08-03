@@ -9,5 +9,13 @@ package hitung;
  * @author HP
  */
 public class MatematikaBeraksi {
-    
+    public static void main(String[] args) {
+        
+        Matematika kalingga = new Matematika(2,8);
+        
+        System.out.println("Hasil Penjumlahan : "+kalingga.setPenjumlahan());
+        System.out.println("Hasil Pengurangan : "+kalingga.setPengurangan());
+        System.out.println("Hasil Perkalian : "+kalingga.setPerkalian());
+        System.out.println("Hasil Pembagian : "+kalingga.setPembagian());   
+    }
 }
